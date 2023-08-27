@@ -8,6 +8,6 @@ public class HomeController {
     
     @GetMapping("/")
     public String home() {
-        return "Hello from Azure App Service (in the staging slot)!";
+        return "This is the Default Landing Page for the Application Gateway";
     }
 }
